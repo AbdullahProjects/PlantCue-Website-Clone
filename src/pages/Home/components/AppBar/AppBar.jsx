@@ -1,22 +1,28 @@
 import React from "react";
 import Images from "../../../../utils/images";
+import MenuDrawer from "../../../../components/MenuDrawer/MenuDrawer";
 
 const AppBar = () => {
   return (
     <div className="container appbar py-4 flex flex-row justify-between items-center w-full">
       {/* Logo */}
-      <div className="logo-section flex flex-row items-center gap-2.5">
-        <div className="logo">
+      <div className="logo-section flex flex-row items-center gap-5">
+        {/* Menu Button */}
+        <MenuDrawer />
+
+        <div className="flex flex-row items-center gap-2.5">
+            <div className="logo">
           <img src={Images.logo} alt="logo" className="w-10" />
         </div>
         <div className="app-info flex flex-col items-start">
           <h1 className="text-[18px] font-bold text-primary">PlantCue</h1>
-          <p className="text-[13px]/3 text-textLight    ">Cue Nature</p>
+          <p className="text-[13px]/3 text-textLight">Cue Nature</p>
+        </div>
         </div>
       </div>
 
       {/* Menu Items */}
-      <div className="menu-items">
+      <div className="hidden lg:block menu-items">
         <ul className="flex flex-row items-center gap-8 text-[14px] font-medium text-primary">
           <li className="show-cursor">How It Works</li>
           <li className="show-cursor">Features</li>
