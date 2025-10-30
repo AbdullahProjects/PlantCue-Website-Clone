@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme{
+  --color-primary: #124A2F;
+  --color-primaryLight: #A4D8A5;
+  --color-textLight: #4B5563;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background: white; 
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primaryLight);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0efef;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.show-cursor:hover {
+  cursor: pointer;
+}
