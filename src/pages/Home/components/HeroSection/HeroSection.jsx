@@ -4,25 +4,25 @@ import DownloadApp from "../../../../components/DownloadApp/DownloadApp";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section container flex py-10">
+    <div className="hero-section container flex flex-col-reverse lg:flex-row py-10 lg:gap-2 gap-10">
       {/* Info */}
-      <div className="info col1 w-[40%] flex flex-col items-start justify-start gap-4">
+      <div className="info col1 w-full lg:w-[45%] flex flex-col items-start justify-start gap-3 lg:gap-4">
         <div className="feature-highlight px-3 py-2 bg-white shadow-lg rounded-full flex flex-row items-center mb-3">
             <div className="feature-dot w-2 h-2 rounded-full bg-primaryLight mr-2"></div>
             <div className="feature-text text-primary text-[12px] font-semibold">AI-Powered Plant Expert</div>
         </div>
-        <div className="text-primary flex flex-col justify-center w-[20%]">
-          <h1 className="text-[80px]/25 font-bold">Identify Any Plant</h1>
+        <div className="text-primary flex flex-col justify-center w-[70%] lg:w-[20%]">
+          <h1 className="text-[60px]/20 lg:text-[80px]/25 font-bold">Identify Any Plant</h1>
         </div>
         <div className="w-[100px] h-1.5 rounded-full bg-linear-to-l from-primary to-primaryLight"></div>
-        <p className="text-[16px] text-textLight">
+        <p className="text-[14px] lg:text-[16px] text-textLight">
           Snap a photo. Learn the name. Get expert care tips.
         </p>
-        <div className="flex flex-row items-center gap-4 mt-4">
+        <div className="flex flex-col md:flex-row lg:gap-3 items-center gap-2 mt-4">
             <DownloadApp img={Images.appleIcon} platform="Apple Store"/>
             <DownloadApp img={Images.playStoreIcon} platform="Google Play"/>
         </div>
-        <div className="flex flex-row gap-3 mt-5 items-center relative">
+        <div className="flex flex-row gap-2 mt-5 items-center relative">
             <div className="images-group relative h-[35px] w-[75px] ">
                 <img src={Images.picture1} alt="" className="w-[35px] h-[35px] absolute top-0 left-0 rounded-full" />
                 <img src={Images.picture2} alt="" className="w-[35px] h-[35px] absolute top-0 left-5 rounded-full" />
@@ -33,7 +33,7 @@ const HeroSection = () => {
       </div>
 
       {/* Image */}
-      <div className="col1 w-[60%] relative flex flex-row items-start justify-end group">
+      <div className="col1 w-[90%] lg:w-[55%] relative flex flex-row items-start justify-end group">
         <img
           src={Images.homeSectionImage}
           alt=""
