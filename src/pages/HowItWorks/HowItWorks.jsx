@@ -72,10 +72,10 @@ const HowItWorks = () => {
         </div>
       </div>
       <div className="bg-image">
-        <img src={Images.howWorksSectionBg1} alt="image" className="w-[14%] absolute top-12 right-20 z-0" />
+        <img src={Images.howWorksSectionBg1} alt="image" className="w-[40%] lg:w-[14%] absolute top-12 right-10 lg:right-20 z-0" />
       </div>
       <div className="bg-image">
-        <img src={Images.howWorksSectionBg1} alt="image" className="w-[18%] absolute bottom-8 left-20 z-0" />
+        <img src={Images.howWorksSectionBg1} alt="image" className="w-[40%] lg:w-[14%] absolute bottom-8 left-8 lg:left-20 z-0" />
       </div>
     </div>
   );
