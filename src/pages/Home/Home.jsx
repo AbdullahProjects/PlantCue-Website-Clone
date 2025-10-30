@@ -1,6 +1,7 @@
 import React from "react";
 import AppBar from "./components/AppBar/AppBar";
 import HeroSection from "./components/HeroSection/HeroSection";
+import HowItWorks from "../HowItWorks/HowItWorks";
 import "./Home.css";
 
 const Home = () => {
@@ -14,6 +15,12 @@ const Home = () => {
 
       {/* Hero Section */}
       <HeroSection />
+      <div className="divider h-[42px]"></div>
+
+      {/* How It Works Section */}
+      <HowItWorks />
+
+      <div className="divider h-[100px]"></div>
     </div>
   );
 };
