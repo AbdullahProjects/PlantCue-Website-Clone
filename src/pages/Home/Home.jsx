@@ -2,6 +2,7 @@ import React from "react";
 import AppBar from "./components/AppBar/AppBar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import HowItWorks from "../HowItWorks/HowItWorks";
+import PlantcueAssistant from "../PlantcueAssistant/PlantcueAssistant";
 import "./Home.css";
 
 const Home = () => {
@@ -20,7 +21,10 @@ const Home = () => {
       {/* How It Works Section */}
       <HowItWorks />
 
-      <div className="divider h-[100px]"></div>
+      {/* Plantcue Assistant */}
+      <PlantcueAssistant />
+
+      <div className="divider h-[400px]"></div>
     </div>
   );
 };

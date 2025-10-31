@@ -43,7 +43,7 @@ const WorkingSteps = () => {
 const SingleStep = (props) => {
   return (
     <div className="individual-working-step w-[90%] lg:w-[24%] relative">
-      <div className="step-count absolute -top-2 -right-2.5 text-[18px] bg-white p-4 rounded-full shadow-md shadow-black/10 font-bold z-10 w-[30px] h-[30px] flex items-center justify-center">
+      <div className="step-count absolute -top-2 right-[15%] lg:right-3 text-[18px] bg-white p-4 rounded-full shadow-md shadow-black/10 font-bold z-10 w-[30px] h-[30px] flex items-center justify-center">
         <h1 style={{color: props.gradientFrom}}>{props.stepCount}</h1>
       </div>
       <div className="explanation flex flex-col items-center gap-6 ">

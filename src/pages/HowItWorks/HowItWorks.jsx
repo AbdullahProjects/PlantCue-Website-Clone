@@ -8,7 +8,7 @@ import { FaDownload } from "react-icons/fa6";
 const HowItWorks = () => {
   return (
     <div className="how-works-section bg-secondary relative">
-      <div className="container flex flex-col py-20 w-full items-center justify-center gap-5 z-10 relative">
+      <div className="container flex flex-col py-20 pb-35 w-full items-center justify-center gap-5 z-10 relative">
         {/* Feature Highlight */}
         <Feature title={"Simple & Powerful"} />
 

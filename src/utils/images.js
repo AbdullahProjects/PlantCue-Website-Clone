@@ -8,6 +8,7 @@ import picture2 from '../assets/images/picture_2.png';
 import picture3 from '../assets/images/picture_3.png';
 import howWorksSectionBg1 from '../assets/images/how_works_section_bg_01.png';
 import howWorksSectionBg2 from '../assets/images/how_works_section_bg_02.png';
+import plantBgImg from '../assets/images/plant_bg_img.png';
 
 class Images {
     // Logo
@@ -21,6 +22,7 @@ class Images {
     static picture3 = picture3;
     static howWorksSectionBg1 = howWorksSectionBg1;
     static howWorksSectionBg2 = howWorksSectionBg2;
+    static plantBgImg = plantBgImg;
 
     // Icons
     static appleIcon = appleIcon;
