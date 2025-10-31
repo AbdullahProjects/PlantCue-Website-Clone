@@ -14,8 +14,8 @@ const HowItWorks = () => {
 
         {/* Heading & Subheading */}
         <h1 className="text-[35px]/12 lg:text-[45px]/12 font-bold text-primary mt-4">How It Works</h1>
-        <p className="text-[16px]/0 font-normal text-textLight">
-          From curious beginner to plant expert in just three taps
+        <p className="text-[16px] text-center font-normal text-textLight">
+          From curious beginner to plant expert in just three taps just three taps just three taps just three taps
         </p>
 
         {/* 3 Steps Explained */}
