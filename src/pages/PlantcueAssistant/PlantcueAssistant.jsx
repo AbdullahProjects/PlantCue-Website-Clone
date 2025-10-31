@@ -15,10 +15,10 @@ const PlantcueAssistant = () => {
         <FeatureDark title="AI Plant Expert" />
 
         {/* Heading & Subheading */}
-        <h1 className="text-white text-[30px] lg:text-[40px] font-bold mt-8">
+        <h1 className="text-white text-[30px] lg:text-[40px] font-bold mt-8 text-center">
           AskCue - Your Plant Assistant
         </h1>
-        <p className="w-[40%] text-white/80 text-[14px] lg:text-[16px] text-center mt-2">
+        <p className="w-[70%] lg:w-[40%] text-white/80 text-[14px] lg:text-[16px] mt-2 text-center">
           Chat with your personal plant assistant 24/7. Get instant answers
           about plant care, pests, and safety.
         </p>

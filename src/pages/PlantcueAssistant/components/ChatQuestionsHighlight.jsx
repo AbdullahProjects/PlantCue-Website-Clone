@@ -8,12 +8,12 @@ import { FaFilter } from "react-icons/fa";
 const ChatQuestionsHighlight = () => {
   return (
     <div className="col1 w-full lg:w-[50%] flex flex-col justify-center items-end gap-6">
-      <div className="w-[70%] bg-linear-to-r from-primary to-primaryLight px-10 py-4 rounded-t-2xl rounded-bl-2xl rounded-br-sm">
+      <div className="w-[85%] lg:w-[70%] bg-linear-to-r from-primary to-primaryLight px-10 py-4 rounded-t-2xl rounded-bl-2xl rounded-br-sm">
         <h1 className="text-white text-[15px] font-normal">
           Why are my monstera leaves turning yellow? 🤔
         </h1>
       </div>
-      <div className="w-[77.5%] flex flex-row gap-3 items-start">
+      <div className="w-[96%] lg:w-[78%] flex flex-row gap-3 items-start justify-end">
         <div className="p-3 bg-linear-to-l from-primary to-primaryLight rounded-full">
           <FaSeedling className="text-white text-[16px]" />
         </div>
@@ -56,7 +56,7 @@ const ChatQuestionsHighlight = () => {
           </div>
         </div>
       </div>
-      <div className="w-[70%] bg-linear-to-r from-primary to-primaryLight px-10 py-4 rounded-t-2xl rounded-br-sm rounded-bl-2xl">
+      <div className="w-[85%] lg:w-[70%] bg-linear-to-r from-primary to-primaryLight px-10 py-4 rounded-t-2xl rounded-br-sm rounded-bl-2xl">
         <h1 className="text-white text-[15px] font-normal">
           Thank you! How often should I water it? 💚
         </h1>
