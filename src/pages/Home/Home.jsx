@@ -3,6 +3,7 @@ import AppBar from "./components/AppBar/AppBar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import HowItWorks from "../HowItWorks/HowItWorks";
 import PlantcueAssistant from "../PlantcueAssistant/PlantcueAssistant";
+import AppFeatures from "../AppFeatures/AppFeatures";
 import "./Home.css";
 
 const Home = () => {
@@ -23,6 +24,9 @@ const Home = () => {
 
       {/* Plantcue Assistant */}
       <PlantcueAssistant />
+
+      {/* Features */}
+      <AppFeatures/>
 
       <div className="divider h-[400px]"></div>
     </div>
