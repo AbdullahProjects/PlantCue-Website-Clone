@@ -30,6 +30,10 @@ body{
   margin: auto;
 }
 
+.link:hover{
+  cursor: pointer;
+}
+
 .show-cursor:hover {
   cursor: pointer;
 }

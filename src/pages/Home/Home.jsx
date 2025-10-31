@@ -4,6 +4,8 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import HowItWorks from "../HowItWorks/HowItWorks";
 import PlantcueAssistant from "../PlantcueAssistant/PlantcueAssistant";
 import AppFeatures from "../AppFeatures/AppFeatures";
+import PricingPackages from "../PricingPackages/PricingPackages";
+import Footer from "./components/Footer/Footer";
 import "./Home.css";
 
 const Home = () => {
@@ -26,9 +28,13 @@ const Home = () => {
       <PlantcueAssistant />
 
       {/* Features */}
-      <AppFeatures/>
+      <AppFeatures />
 
-      <div className="divider h-[400px]"></div>
+      {/* Pricing Packages */}
+      <PricingPackages />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
