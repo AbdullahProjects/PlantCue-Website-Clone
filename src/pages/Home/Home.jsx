@@ -22,13 +22,19 @@ const Home = () => {
       <div className="divider h-[42px]"></div>
 
       {/* How It Works Section */}
-      <HowItWorks />
+      <div id="how-it-works">
+        <HowItWorks />
+      </div>
 
       {/* Plantcue Assistant */}
-      <PlantcueAssistant />
+      <div id="about-us">
+        <PlantcueAssistant />
+      </div>
 
       {/* Features */}
-      <AppFeatures />
+      <div id="features">
+        <AppFeatures />
+      </div>
 
       {/* Pricing Packages */}
       <PricingPackages />

@@ -3,6 +3,13 @@ import Images from "../../../../utils/images";
 import MenuDrawer from "../../../../components/MenuDrawer/MenuDrawer";
 
 const AppBar = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <div className="container appbar py-4 flex flex-row justify-between items-center w-full">
       {/* Logo */}
@@ -24,9 +31,24 @@ const AppBar = () => {
       {/* Menu Items */}
       <div className="hidden lg:block menu-items">
         <ul className="flex flex-row items-center gap-8 text-[14px] font-medium text-primary">
-          <li className="show-cursor">How It Works</li>
-          <li className="show-cursor">Features</li>
-          <li className="show-cursor">About Us</li>
+          <li 
+            className="show-cursor hover:text-primary transition-colors" 
+            onClick={() => scrollToSection("how-it-works")}
+          >
+            How It Works
+          </li>
+          <li 
+            className="show-cursor hover:text-primary transition-colors" 
+            onClick={() => scrollToSection("features")}
+          >
+            Features
+          </li>
+          <li 
+            className="show-cursor hover:text-primary transition-colors" 
+            onClick={() => scrollToSection("about-us")}
+          >
+            About Us
+          </li>
         </ul>
       </div>
 
