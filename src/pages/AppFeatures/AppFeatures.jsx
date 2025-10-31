@@ -95,7 +95,7 @@ const AppFeatures = () => {
           {allFeatures.map((feature, index) => (
             <div
               key={index}
-              className="single-feature w-md mx-auto hover:scale-102 transition-all duration-300 flex flex-col items-start bg-linear-to-r from-[#FFFFFF] to-[#F5F5E9] rounded-xl shadow-lg px-8 py-8"
+              className="single-feature hover:scale-102 transition-all duration-300 flex flex-col items-start bg-linear-to-r from-[#FFFFFF] to-[#F5F5E9] rounded-xl shadow-lg px-8 py-8"
             >
               <div
                 className="icon flex items-center justify-center p-4 rounded-xl"
