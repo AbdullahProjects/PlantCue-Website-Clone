@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCrown } from "react-icons/fa6";
 
 const Feature = ({ title }) => {
   return (
@@ -22,5 +23,16 @@ const FeatureDark = ({ title }) => {
   );
 };
 
+const FeaturePremium = ({ title }) => {
+  return (
+    <div className="feature-highlight px-6 py-3 bg-white/90 border border-white/20 rounded-full flex flex-row items-center">
+      <FaCrown className="text-primary mr-2" />
+      <div className="feature-text text-primary text-[12px] font-medium">
+        {title}
+      </div>
+    </div>
+  );
+};
+
 export default Feature;
-export { FeatureDark };
+export { FeatureDark, FeaturePremium };

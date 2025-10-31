@@ -1,7 +1,7 @@
 import React from "react";
 import { HiMagnifyingGlassPlus } from "react-icons/hi2";
 import { FaStethoscope, FaCheck } from "react-icons/fa6";
-import { RiFileTextLine, RiTeamLine, RiHeartFill } from "react-icons/ri";
+import { RiHeartFill } from "react-icons/ri";
 import { IoNotifications } from "react-icons/io5";
 import { FaBook } from "react-icons/fa";
 import { IoPeopleSharp } from "react-icons/io5";
