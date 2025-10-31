@@ -103,7 +103,7 @@ const PricingPackages = () => {
         </div>
 
         {/* Bottom Sections */}
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-12 px-4 mb-12">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-12 px-4 mb-12">
           {/* Premium Features Section */}
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <div className="flex items-center mb-6">
